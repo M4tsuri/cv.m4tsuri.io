@@ -1,6 +1,6 @@
 basic:
   name: 徐积微
-  title: 安全研究
+  title: 二进制/合约安全
   avatar:
     display: false
     path: profile.png
@@ -41,6 +41,19 @@ education:
       details: |
         + **GPA 排名前 30%**, 乙等奖学金 (1 次), 丙等奖学金 (1 次)
         + **CET4 (612 分), CET6 (526 分)**
+
+skills:
+  display: true
+  title: 技术能力
+  details: |
+    + **编程语言**: `Rust`, `Python`, `C`, `Solidity`, `Java`, `x86 Assembly`, `Shell`
+    + **工具**:
+      + 熟练使用 IDA Pro 以及 Ghidra 进行软件静态分析并编写脚本
+      + 熟练使用 GDB 进行动态调试
+    + 对 Linux 用户态二进制漏洞有深入了解
+    + 熟悉软件二进制级静态分析技术的理论基础和代码实现
+    + 对以太坊底层技术以及智能合约安全有一定了解
+    + 熟悉基本的操作系统原理，对 Linux 内核部分功能的实现进行过深入学习
 
 experiences:
   display: true
@@ -86,24 +99,6 @@ projects:
       link:
       details: |
         Project Bar's detail, you can write markdown format text.
-
-skills:
-  display: true
-  title: Skills
-  details: |
-    Here is my skills:
-    + First
-    + Second
-
-    ...
-
-  levels:
-    - name: Skill A
-      level: 90
-    - name: Skill B
-      level: 80
-    - name: Skill C
-      level: 70
 
 certificates:
   display: true
