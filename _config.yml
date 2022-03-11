@@ -1,7 +1,7 @@
 # Welcome to Jekyll!
 title: M4tsuri's Resume
-url: m4tsuri.io
-baseurl: m4tsuri.io
+url:
+baseurl: 
 
 # Sass setting
 sass:
