@@ -1,7 +1,7 @@
 # Welcome to Jekyll!
-title: Online &hearts; Resume
-url:
-baseurl:
+title: M4tsuri's Resume
+url: m4tsuri.io
+baseurl: m4tsuri.io
 
 # Sass setting
 sass:
@@ -13,7 +13,7 @@ lang: en                    # html lang
 open: true                  # open or close your site
 date_format: "%Y-%m-%d"     # date format
 theme_color: "#1DA1F2"      # your favorite theme color
-allow_search_engines: true  # allow search engines indexing your resume
+allow_search_engines: false # allow search engines indexing your resume
 analytics:
   google:                   # your google analytics
   cloudflare:               # your cloudflare analytics
