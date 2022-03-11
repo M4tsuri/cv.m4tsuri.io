@@ -95,28 +95,28 @@ projects:
       details: |
         + 使用 PEG 定义文法，并借助 pest 库构建 AST
         + 定义了一种 IR, 并在此基础上实现了几种常见静态分析 pass, 如 Reaching Definition Analysis, Live Variable Analysis 等
-    
+
     - name: 使用 Rust 实现的操作系统 (尚未完成)
       link: https://github.com/M4tsuri/OrustS
-      details: /
+      details: 
         + 使用纯 Rust 实现了一个 32 位的分阶段 BIOS bootloader
         + 初步实现了基于三级页表的内存分页功能
 
     - name: 破解 MacOS 代理软件 Surge 
       link: https://github.com/M4tsuri/Surge_Crack
-      details: 
+      details: /
         + 使用IDA, DTrace等多种动静态分析技术完成
 
 certificates:
   display: true
   title: 奖项
   items:
-    - name: 第十四届全国大学生信息安全竞赛全国二等奖
+    - name: 第十四届全国大学生信安竞赛二等奖
       authority: 信息安全类专业教学指导委员会
       time: 2021.08
       link: http://www.ciscn.cn/
       details: 
-    - name: 第十三届全国大学生信息安全竞赛全国二等奖
+    - name: 第十三届全国大学生信安竞赛二等奖
       authority: 信息安全类专业教学指导委员会
       time: 2020.08
       link: http://www.ciscn.cn/
