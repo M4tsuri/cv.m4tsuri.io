@@ -2,7 +2,7 @@ basic:
   name: 徐积微
   title: 安全研究
   avatar:
-    display: true
+    display: false
     path: profile.png
 
 contact:
@@ -19,20 +19,28 @@ contact:
   github: M4tsuri
   gitlab:
   bitbucket:
-  twitter: twitter
+  twitter: 
   stackoverflow:
   quora:
   goodreads:
 
 profile:
   display: true
-  title: Profile
+  title: 自我介绍
   details: |
-    It's your career profile, you can wirte markdown format text.
-    + First
-    + Second
+    本人在校成绩优秀，乐观向上，对二进制漏洞挖掘与程序分析有浓厚的兴趣，愿意尝试新事物，具有较 强的分析与解决问题的能力，以及信息检索与自主学习能力。拥有自己动手探索复杂系统实现机制的好 奇心。在 CTF 竞赛中多次取得优秀成绩。现为武汉大学 Dawn 战队以及联合战队 W&M 成员。
 
-    ...
+education:
+  display: true
+  title: 教育背景
+  items:
+    - university: 武汉大学
+      time: 2019 - 2023
+      major: 国家网络安全学院信息安全专业
+      degree: 在读本科
+      details: |
+        + **GPA 排名前 30%**, 乙等奖学金 (1 次), 丙等奖学金 (1 次)
+        + **CET4 (612 分), CET6 (526 分)**
 
 experiences:
   display: true
@@ -96,32 +104,6 @@ skills:
       level: 80
     - name: Skill C
       level: 70
-
-education:
-  display: true
-  title: Education
-  items:
-    - university: Example University
-      time: 2015 - 2018
-      major: Machine Learning
-      degree: Master
-      details: |
-        Experience in this university:
-        + First
-        + Second
-
-        ...
-
-    - university: Example University
-      time: 2011 - 2015
-      major: Computer Science
-      degree: Bachelor
-      details: |
-        Experience in this university:
-        + First
-        + Second
-
-        ...
 
 certificates:
   display: true
