@@ -109,60 +109,26 @@ projects:
 
 certificates:
   display: true
-  title: Certificates
+  title: 奖项
   items:
-    - name: Course Foo
-      authority: Coursera
-      time: 2020
-      link:
-      details: |
-        It's my Course Foo certificate by coursera.
-    - name: Course Bar
-      authority: Coursera
-      time: 2020
-      link: https://www.google.com
-      details: |
-
-publications:
-  display: true
-  title: Publications
-  intro: |
-    This is all the books I wrote.
-
-  items:
-    - title: Foo in Action
-      authors: Foo Bar
-      conference: Foobar, 2019
-      link: https://www.google.com
-    - title: The Art of Bar
-      authors: Foo Bar
-      conference: Foobar, 2019
-      link:
-
-patents:
-  display: true
-  title: Patents
-  details: |
-    This is all my patents.
-    + 2020\. A patent name is here. CN123456, filed May 15, 2020, and issued July 20, 2020.
-
-languages:
-  display: true
-  title: Languages
-  items:
-    - idiom: Chinese
-      level: Native
-    - idiom: English
-      level: Professional
-
-interests:
-  display: true
-  title: Interests
-  items:
-    - item: Reading
-      link:
-    - item: Cooking
-      link:
+    - name: 第十四届全国大学生信息安全竞赛全国二等奖
+      authority: 信息安全类专业教学指导委员会
+      time: 2021.08
+      link: http://www.ciscn.cn/
+      details: 
+    - name: 第十三届全国大学生信息安全竞赛全国二等奖
+      authority: 信息安全类专业教学指导委员会
+      time: 2020.08
+      link: http://www.ciscn.cn/
+      details: 
+    - name: TCTF 2020 全国第八名
+      authority: 腾讯集团
+      time: 2020.08
+      link: 
+    - name: 2021 年 DEFCON CTF 冠军（作为 Katzebin 成员参与） 
+      authority: DEFCON Group
+      time: 2021.08
+      link: https://defcon.org
 
 footer:
   display: true
