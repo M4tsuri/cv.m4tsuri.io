@@ -24,11 +24,11 @@ contact:
   quora:
   goodreads:
 
-profile:
+evaluation:
   display: true
   title: 自我介绍
   details: |
-    本人在校成绩优秀，乐观向上，对二进制漏洞挖掘与程序分析有浓厚的兴趣，愿意尝试新事物，具有较 强的分析与解决问题的能力，以及信息检索与自主学习能力。拥有自己动手探索复杂系统实现机制的好 奇心。在 CTF 竞赛中多次取得优秀成绩。现为武汉大学 Dawn 战队以及联合战队 W&M 成员。
+    本人在校成绩优秀，乐观向上，对二进制漏洞挖掘与程序分析有浓厚的兴趣，愿意尝试新事物，具有较强的分析与解决问题的能力，以及信息检索与自主学习能力。拥有自己动手探索复杂系统实现机制的好奇心。在 CTF 竞赛中多次取得优秀成绩。现为武汉大学 Dawn 战队以及联合战队 W&M 成员。
 
 education:
   display: true
@@ -57,43 +57,38 @@ skills:
 
 experiences:
   display: true
-  title: Experiences
+  title: 实习经历
   items:
-    - role: Backend Developer
-      time: 2018.03 - 2019.03
-      company: Second Company
+    - role: 客户端安全
+      time: 2021.07 - 2021.09
+      company: 腾讯集团-科恩实验室
       tag:
-      location: Beijing
+      location: 上海
       details: |
-        Experience in this company:
-        + First
-        + Second
-
-        ...
-
-    - role: Backend Developer
-      time: 2017.03 - 2018.03
-      company: First Company
-      tag: Remote, part-time
-      location: Beijing
+        + 学习程序二进制级静态分析技术，对某开源静态分析工具的源码进行分析
+        + 参与开发某个基于 Ghidra 的二进制级静态漏洞扫描工具
+  
+    - role: 客户端安全
+      time: 2021.01 - 2021.03
+      company: 腾讯集团-科恩实验室
+      tag: 
+      location: 上海
       details: |
-        Experience in this company:
-        + First
-        + Second
-
-        ...
+        + 负责某安全工具测试数据的提取与处理
+        + 独立开发 Ghidra 插件，作为某安全服务中间件
+        + 对几个程序静态分析工具的性能进行对比测试
 
 projects:
   display: true
-  title: Projects
-  intro: |
-    This is all the projects I'm involved in.
+  title: 项目作品
 
   items:
-    - name: Foo
-      link: https://www.google.com
+    - name: 以太坊 Merkle Patricia Tree 的 Rust 实现
+      link: https://github.com/M4tsuri/mpt-rs
       details: |
-        Project Foo's detail, you can write markdown format text.
+        + 严格依据黄皮书中的形式化定义实现，并形成[博客](https://dere.press/2022/01/24/eth-trie/)
+        + 使用 Rust 函数式编程思想实现内部算法
+        + 学习过程中发现以太坊黄皮书中的定义问题并提交 PR [#841](https://github.com/ethereum/yellowpaper/pull/841)
 
     - name: Bar
       link:
@@ -156,16 +151,6 @@ interests:
       link:
     - item: Cooking
       link:
-
-evaluation:
-  display: true
-  title: Self-evaluation
-  details: |
-    Here is my self evaluation.
-    + First
-    + Second
-
-    ...
 
 footer:
   display: true
