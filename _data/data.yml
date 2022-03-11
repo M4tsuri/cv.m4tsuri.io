@@ -125,10 +125,11 @@ certificates:
       authority: 腾讯集团
       time: 2020.08
       link: 
-    - name: 2021 年 DEFCON CTF 冠军（作为 Katzebin 成员参与） 
+    - name: DEF CON 29 CTF 冠军
       authority: DEFCON Group
       time: 2021.08
       link: https://defcon.org
+      details: 作为 Katzebin 成员参与
 
 footer:
   display: true
