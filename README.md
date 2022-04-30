@@ -1,5 +1,5 @@
 ## M4tsuri's Resume
 
-我的简历页面
+我的简历
 
-**https://m4tsuri.io**
+**https://cv.m4tsuri.io**
