@@ -10,7 +10,7 @@ sass:
 
 # Custom
 lang: en                    # html lang
-open: true                  # open or close your site
+open: false                  # open or close your site
 date_format: "%Y-%m-%d"     # date format
 theme_color: "#1DA1F2"      # your favorite theme color
 allow_search_engines: false # allow search engines indexing your resume
